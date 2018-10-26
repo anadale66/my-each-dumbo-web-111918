@@ -1,7 +1,7 @@
-def my_each(arg)
+def my_each(array)
   i = 0
-  while i < arg.length 
-    yield arg[i] 
+  while i < array.length 
+    yield array[i] 
     i += 1
   end
 end
